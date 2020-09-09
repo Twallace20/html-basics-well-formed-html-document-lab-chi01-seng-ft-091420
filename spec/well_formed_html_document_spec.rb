@@ -1,11 +1,11 @@
 RSpec.describe 
 
 
-<DOCTYPE html>
+<!DOCTYPE html>
 <h1>
 </h1>
 
-</DOCTYPE html>
+</!DOCTYPE html>
 
   it 'has a top-level <html> tag to enclose the document' do
     expect(parsed_html.child.name).to match(/html/i)
